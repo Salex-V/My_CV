@@ -1,0 +1,335 @@
+/*============ reset css start ============*/
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+ul {
+  list-style: none;
+}
+img,
+svg {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+/*============ reset css end ============*/
+.layout {
+  margin: 0 auto;
+  max-width: 595px;
+  display: flex;
+}
+
+/*============ left-sidebar-links start ============*/
+
+.left-sidebar {
+  background-color: #f0f6ff;
+  max-width: 240px;
+  border-right: 1px solid #1abcfe;
+  border-bottom: 1px solid #1abcfe;
+  box-shadow: 4px 0px 4px rgba(105, 150, 219, 0.25);
+  float: left;
+}
+.avatar img {
+  margin: 20px 60px;
+}
+
+.left-sidebar__block {
+  padding-bottom: 20px;
+}
+.left-sidebar__block-link {
+  background-color: #f0f6ff;
+  border-bottom: 1px solid #c7c7c7;
+}
+.left-sidebar__block-link_icon {
+  display: flex;
+  align-items: center;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #c7c7c7;
+  box-shadow: 0px 4px 4px rgba(215, 215, 215, 0.25);
+  border-radius: 35px;
+  padding: 0px 10px 0px 0px;
+  width: 220px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #6996db;
+  margin: 10px;
+  background-color: #fff;
+}
+.left-sidebar__block-link_text {
+  margin-left: 10px;
+  cursor: default;
+}
+
+/*============ left-sidebar-links end ============*/
+
+/*============ left-sidebar-skills start ============*/
+
+.block-skills_title {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6996db;
+}
+
+.left-sidebar__block-skills_icon {
+  display: flex;
+  align-items: center;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #c7c7c7;
+  box-shadow: 0px 4px 4px rgba(215, 215, 215, 0.25);
+  border-radius: 35px;
+  padding: 0px 10px 0px 0px;
+  width: 220px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #6996db;
+  margin: 3px 10px;
+
+  background-color: #fff;
+}
+.left-sidebar__block-skills_text {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: dotted;
+  cursor: default;
+}
+
+/*============ left-sidebar-skills end ============*/
+
+/*============ content START ============*/
+
+.content {
+  max-width: 355px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #1abcfe;
+}
+
+/*============ title START ============*/
+
+.about-text {
+  margin: 30px 70px;
+}
+
+.about-text h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.about-text h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about-text p {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.about-img {
+  margin-top: -190px;
+}
+.content_subtitle {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  margin-top: -30px;
+  width: 265px;
+  text-indent: 30px;
+}
+
+/*============ title END ============*/
+
+/*============ experience START ============*/
+
+.experience-title h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6996db;
+  margin: 30px 40px 10px;
+}
+
+.experience-title-text {
+  border-bottom: 1px solid #c7c7c7;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.experience-title-text h3 {
+  display: flex;
+  width: 200px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 5px;
+  margin-left: 130px;
+  position: relative;
+  justify-content: end;
+}
+
+.experience-title-text h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 100px;
+  width: 230px;
+  padding: 2px 0 30px;
+  display: flex;
+  justify-content: end;
+}
+.experience-title-text p {
+  width: 90px;
+  position: absolute;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 15px;
+  margin-top: -55px;
+}
+
+/*============ experience END ============*/
+/*============ education START ============*/
+
+.content__education h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6996db;
+  margin: 30px 40px 10px;
+}
+
+.education-aside p {
+  margin-top: -70px;
+}
+
+.education-aside h4 {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 10px;
+}
+
+.experience-title-text h5 {
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  color: #6996db;
+  width: 130px;
+  margin-top: -55px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  margin-left: 10px;
+}
+
+.aside-expierence h3 {
+  font-size: 12px;
+}
+
+/*============ education END ============*/
+
+.content-skills {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c7c7c7;
+  margin: 0 10px;
+}
+.content-skills h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6996db;
+  margin: 30px 30px 10px;
+}
+
+.content-skills p {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 10px;
+  width: 310px;
+  text-indent: 30px;
+}
+
+.content-jobs h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6996db;
+  margin: 20px 40px 10px;
+}
+
+.content-jobs_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-jobs_img p {
+  color: rgb(66, 154, 243);
+  width: 100px;
+}
+
+.content-jobs_img img {
+  width: 30px;
+  height: 30px;
+}
+
+/*============ content END ============*/
